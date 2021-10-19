@@ -13,6 +13,9 @@ package oop;
  */
 interface Writer{
 	void write();
+	default void me() {
+		//Trying default method in interface.
+	}
 }
 
 class Pen implements Writer{

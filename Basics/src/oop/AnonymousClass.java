@@ -14,7 +14,7 @@ public class AnonymousClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		AA ob = new AA() 
+		AA ob = new AA()
 		{
 			public void show() {
 				System.out.println("I am the Best");
