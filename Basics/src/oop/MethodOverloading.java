@@ -5,8 +5,9 @@ package oop;
  * There are two ways to overload the method in java
  *   1. By changing number of arguments
  *   2. By changing the data type
- * We Also can overload main method But JVM calls main() method which receives string array 
+ * We Also can overload main method.But JVM calls main() method which receives string array 
  *  as arguments only
+ * We cannot overload method by changing return type of Method. i.e from void to int,string. 
  */
 
 class Casio{

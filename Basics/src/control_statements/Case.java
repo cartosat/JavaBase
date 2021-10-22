@@ -4,7 +4,7 @@ public class Case {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//If case matches the all consecutives staatements will execute hence we use break
+		//If case matches the all consecutives statements will execute hence we use break
 		//default will be triggered if no case is matched
 		//We can use character bcoz they get converted to int (Inplicit Typecasting)
 		//Switch doesn't support string for java version below 1.7 

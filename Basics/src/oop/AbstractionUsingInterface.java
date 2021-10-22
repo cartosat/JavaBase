@@ -46,7 +46,7 @@ public class AbstractionUsingInterface {
 		k.doSomething(w);
 		
 		Pencil2 pn = new Pencil2();
-		k.doSomething(pn);
+		k.doSomething(pn); 
 	}
 
 }

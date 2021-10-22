@@ -1,11 +1,12 @@
 package oop;
 /*
- * used to refer to the common property of all objects
- * We dont need object to access static methods and variables
- * to initialize static variables we can use static block
- * to initialize non static variables we can use constructor
- * static block initilizes when we load a class --> only once
- * cannot access non static member inside static method
+ * used to refer to the common property of all objects.
+ * We dont need object to access static methods and variables.
+ * If we have static block & constructor then static block is executed first then constructor.
+ * to initialize static variables we can use static block.
+ * to initialize non static variables we can use constructor.
+ * static block initilizes when we load a class --> only once.
+ * We cannot access non static member inside static method.
  */
 class Emp{
 	int eid;
