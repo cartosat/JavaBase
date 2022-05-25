@@ -11,9 +11,6 @@ import java.util.List;
  * 	1) Static methods
  * 	2) Instance methods
  * 	3) Constructors using new operator (TreeSet::new)
- * 
- * 
- * 
  *
  */
 

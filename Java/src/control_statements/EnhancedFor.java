@@ -5,7 +5,7 @@ package control_statements;
  * it cannot traverse the elements in reverse order. 
  * Syntax is :- for(data_type variable : array | collection){......}
  */
-public class ForEach {
+public class EnhancedFor {
 
 	public static void main(String[] args) {
 		
