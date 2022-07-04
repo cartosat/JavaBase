@@ -4,7 +4,7 @@ public class Variables {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//  bit -> 4 bit = 1 Nibble -> 8 bit = 1 byte -> 1024 bits = 1 KB -> 1024 KB = 1 MB
+		//  bit -> 4 bit = 1 Nibble -> 8 bit = 1 byte -> 1024 byte = 1 KB -> 1024 KB = 1 MB
 		//  (Mega Byte) MB -> (GiGa) GB -> (Tera) TB -> (Peta) PB -> (Hexa) HB -> (Zeeta) ZB.
 
 		byte a2 = -12;  // 1 Byte --> 8bits --> -128 to 127
