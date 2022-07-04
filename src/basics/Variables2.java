@@ -12,7 +12,7 @@ public class Variables2 {
 		
 		int a = 66;
 		a ='D';     //we are assigning Alphabetical value to a
-					//But as a is integer it will consider ASCII value of 'A'
+					//But as a is integer it will consider ASCII value of 'D'
 	
 		int x =5;
 		char y = 'E';

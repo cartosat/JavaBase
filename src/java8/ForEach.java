@@ -13,9 +13,11 @@ public class ForEach {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<String> li = Arrays.asList("Me", "You", "She");
-		
-		li.forEach(System.out::println);
 
+		for(String e:li) {
+			System.out.println(e);
+
+		}
 	}
 
 }
