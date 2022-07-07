@@ -1,5 +1,8 @@
 package basics;
 
+/**
+ * @author VSW
+ */
 public class Variables2 {
 
 	public static void main(String[] args) {
@@ -17,7 +20,7 @@ public class Variables2 {
 		int x =5;
 		char y = 'E';
 		
-		x=y;  // we can directly assign char to int --> since It is Implicit Type Casting
+		x=y;  // we can directly assign char to int -1-> since It is Implicit Type Casting
 	 // y=x; // Error cannot convert from int to char 
 		y=(char)x; // Typecasting int to char --> Explicit Typecasting
 		
