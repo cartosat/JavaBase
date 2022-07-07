@@ -2,15 +2,17 @@ package collection_and_Generics;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/*
+/**
+ * @author VSW
  * Collection is framework that store group of objects.
+ * Collection is interface. You can see its hierarchy in JavaCollectionHierarchy.png file
  * Collection provides many interfaces (Set, List, Queue, Deque) and 
  * 	classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet).
  * Every Element in collection is object.
- * Collection does not support index number.
+ * Collection does not support indexing. i.e arr[2]
  * 
  */
-public class Collection1 {
+public class CollectionOverview {
 
 	public static void main(String[] args) {
 		

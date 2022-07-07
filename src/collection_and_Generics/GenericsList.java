@@ -2,12 +2,14 @@ package collection_and_Generics;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-/*
- * We called this as Generics since we have list of specific data type.
- * Now we cannot add variable of other data type except Integer.
+/**
+ * @author VSW
+ * When we don't have data type specified we call it as collection.
+ * We have data type specified hence We called this as Generics.
+ * Now we cannot add variable of other data type except specified in <> bracket.
  * We can sort list with sort method from Collections.
  */
-public class List_of_specific_dtype {	
+public class GenericsList {
 
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<Integer>();

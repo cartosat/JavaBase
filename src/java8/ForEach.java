@@ -14,6 +14,10 @@ public class ForEach {
 		// TODO Auto-generated method stub
 		List<String> li = Arrays.asList("Me", "You", "She");
 
+		System.out.println("==== using forEach ====");
+		li.stream().forEach(System.out::println);
+
+		System.out.println("==== using Enhanced for loop ====");
 		for(String e:li) {
 			System.out.println(e);
 
