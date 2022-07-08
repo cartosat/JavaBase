@@ -5,11 +5,11 @@ import java.util.Collections;
 import java.util.List;
 
 
-class Stud implements Comparable<Stud>{
+class Student implements Comparable<Student>{
 	int rollno,marks;
 	String name;
 	
-	public Stud(int rollno, String name, int marks) {
+	public Student(int rollno, String name, int marks) {
 		super();
 		this.rollno = rollno;
 		this.marks = marks;
@@ -22,7 +22,7 @@ class Stud implements Comparable<Stud>{
 	}
 
 	@Override
-	public int compareTo(Stud s) {
+	public int compareTo(Student s) {
 		
 		return marks>s.marks?1:-1;
 	}
@@ -32,15 +32,15 @@ public class ComparableInterface {
 
 	public static void main(String[] args) {
 		
-		List<Stud> studs = new ArrayList<Stud>();
-		studs.add(new Stud(23,"Mahesh",55));
-		studs.add(new Stud(24,"Sony",64));
-		studs.add(new Stud(25,"Larry",25));
-		studs.add(new Stud(26,"Joseph",36));
+		List<Student> studs = new ArrayList<Student>();
+		studs.add(new Student(23,"Mahesh",55));
+		studs.add(new Student(24,"Sony",64));
+		studs.add(new Student(25,"Larry",25));
+		studs.add(new Student(26,"Joseph",36));
 		
 		Collections.sort(studs);
 		
-		for(Stud s:studs) {
+		for(Student s:studs) {
 			System.out.println(s);
 		}
 
