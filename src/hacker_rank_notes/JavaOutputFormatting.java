@@ -33,6 +33,6 @@ public class JavaOutputFormatting {
         String s3=String.format("value is %36.12f",32.33434);// %36 will introduce 36 spaces before
                                             // .12f will print number with 12 precsion/digits.
         System.out.println(s3);
-        Math.pow()
+
     }
 }
